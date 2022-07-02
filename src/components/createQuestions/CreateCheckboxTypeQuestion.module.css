@@ -1,0 +1,32 @@
+.container + .container {
+  margin-top: 10px;
+}
+
+.checkbox {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.checkbox:checked + .label .customCheckbox{
+  background-color: rgb(186, 255, 175);
+  border: 2px solid rgb(6, 60, 0);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  color: rgb(77, 77, 77);
+}
+
+.customCheckbox {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid gray;
+  background-color: #f5f5f5;
+  margin-right: 10px;
+}

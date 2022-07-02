@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #dad2cc;
+  padding: 20px 40px;
+  position: relative;
+  flex: 0 1 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.select {
+  color: #5a5959;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 3px 10px;
+  border: 1px solid #5a5959;
+  background-color: #e9e1da;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.selectTitle {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+
+.button {
+  cursor:pointer;
+  text-transform: uppercase;
+  border: 1px solid #5a5959;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 60px;
+  margin: 0 auto;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  transition: all 0.2s ease;
+  background-color: rgba(0, 0, 0, 1);
+}

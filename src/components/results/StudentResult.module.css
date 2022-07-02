@@ -1,0 +1,77 @@
+.list {
+  width: 100%;
+  flex: 1 1 auto;
+  border: 1px solid gray;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+}
+
+.list + .list {
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.item {
+  background-color: rgb(246, 246, 246);
+  margin: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 30px ;
+  border-radius: 5px;
+}
+
+.isTrue {
+  background-color: rgb(186, 255, 175);
+}
+
+.isFalse {
+  background-color: rgb(255, 175, 175);
+}
+
+.title {
+  color: rgb(44, 44, 44);
+}
+
+.trueAnswer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.yourAnswer {
+  font-weight: bold;
+}
+
+.listVars {
+  list-style: none;
+  color: rgb(44, 44, 44);
+  font-size: 16px;
+}
+
+.vars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goodMark,
+.badMark  {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.goodMark {
+  background-color: rgb(146, 255, 148);
+}
+
+.badMark {
+  background-color: rgb(255, 146, 146);
+}

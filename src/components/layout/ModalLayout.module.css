@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.modal {
+  display: flex;
+  min-height: 300px;
+  min-width: 400px;
+  background-color: rgb(193, 193, 193);
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  position: relative;
+  padding: 20px;
+}
+
+.close {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  fill: rgb(97, 97, 97);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close:hover {
+  fill: rgb(66, 66, 66);
+}

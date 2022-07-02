@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto
+}
+
+.vars {
+  display: flex;
+  justify-content: space-between;
+  min-height: 280px;
+}
+
+.raw {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.item {
+  color: rgb(51, 51, 51);
+  margin-bottom: 20px;
+}

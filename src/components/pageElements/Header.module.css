@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(193, 193, 193);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+

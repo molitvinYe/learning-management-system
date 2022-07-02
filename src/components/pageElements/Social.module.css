@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border: 1px solid #5a5959;
+  transform: rotate(-10deg);
+  background-color: #dad2cc;
+  bottom: -95px;
+  right: 40px;
+  transition: all 0.2s ease;
+}
+
+.social:hover {
+  transition: all 0.2s ease;
+  height: 155px;
+  width: 155px;
+}
+
+.icon {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}

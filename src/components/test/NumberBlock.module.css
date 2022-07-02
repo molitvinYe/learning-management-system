@@ -1,0 +1,24 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(206, 206, 206);
+  border: 1px solid rgb(183, 183, 183);
+  cursor: pointer;
+}
+
+.current {
+  border: 1px solid rgb(73, 73, 73);
+}
+
+.checked {
+  background-color: rgb(186, 255, 175);
+}
+
+.text {
+  color: rgb(73, 73, 73);
+  font-size: 20px;
+}

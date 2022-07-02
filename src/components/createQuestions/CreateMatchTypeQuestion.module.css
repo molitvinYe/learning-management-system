@@ -1,0 +1,42 @@
+.raw {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.list {
+  box-sizing: border-box;
+}
+
+.list + .list {
+  margin-left: 20px;
+}
+
+.container + .container {
+  margin-left: 30px;
+}
+
+.label,
+.option,
+.select {
+  color: rgb(63, 63, 63);
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.select {
+  padding: 5px 10px;
+  background-color: rgb(255, 248, 238);
+}
+
+.select:focus {
+  outline: none;
+  border: 1px solid rgb(63, 63, 63)
+}
+
+.title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}

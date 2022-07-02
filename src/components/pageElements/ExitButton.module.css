@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  margin-left: 40px;
+  height: 42px;
+  width: 42px;
+}
+
+.icon  {
+  fill: rgba(0, 0, 0, 0.8);
+  height: 42px;
+  width: 42px;
+}
+
+.icon:hover {
+  fill: rgba(0, 0, 0, 0.9);
+}

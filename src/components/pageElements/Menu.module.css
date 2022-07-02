@@ -1,0 +1,32 @@
+.navigation {
+  margin-left: auto;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.item + .item{
+  margin-left: 30px;
+}
+
+.link {
+  font-size: 14px;
+  text-decoration: none;
+  cursor:pointer;
+  text-transform: uppercase;
+  border: 1px solid #5a5959;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin: 0 auto;
+  transition: all 0.2s ease;
+}
+
+.link:hover,
+.active {
+  transition: all 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.input {
+  display: block;
+  color: #5a5959;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 3px 10px;
+  border: 1px solid #5a5959;
+  background-color: #e9e1da;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input:focus,
+.input:active {
+  outline:#5a5959;
+}
+
+.list {
+  position: absolute;
+  background-color: #5a5959;
+  top: 50px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+  max-height: 130px;
+  overflow: auto;
+  border: 1px solid #5a5959;
+  z-index: 10;
+}
+
+.list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.item {
+  display: block;
+  cursor: pointer;
+  color: #5a5959;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 3px 10px;
+  border: 1px solid #5a5959;
+  background-color: #e9e1da;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  border-left: none;
+  border-right: none;
+  text-transform: uppercase;
+}
+
+.item:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.active,
+.active:focus,
+.active:checked,
+.active:hover {
+  background-color: rgb(186, 255, 175);
+}
