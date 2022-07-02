@@ -1,0 +1,77 @@
+.block {
+  display: flex;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.block + .block {
+  margin-top: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 0 1 100%;
+  background-color: #dad2cc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  min-width: 30px;
+  font-size: 14px;
+  color: rgb(6, 60, 0);
+  background-color: rgb(186, 255, 175);
+  border: 1px solid rgb(6, 60, 0);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.listVars {
+  list-style: none;
+  color: rgb(44, 44, 44);
+  font-size: 16px;
+  margin: 10px 0;
+  word-wrap: break-word;
+}
+
+.listVars li {
+  max-width: 300px;
+}
+
+.vars{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vars .listVars {
+  width: 50%;
+  border: 1px solid gray;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+}
+
+.vars .listVars + .listVars {
+  margin-left: 40px;
+}

@@ -1,0 +1,14 @@
+.slogan {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0 0 60px 0;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+}

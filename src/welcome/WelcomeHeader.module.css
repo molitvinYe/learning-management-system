@@ -1,0 +1,52 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkContainer {
+  position: relative;
+}
+
+.linkContainer::before {
+  content:'';
+  cursor: pointer;
+  position: absolute;
+  height: 1px;
+  width: 90%;
+  background-color: black;
+  right: 5px;
+  bottom: -5px;
+  transform: rotate(-2deg);
+  transition: all 0.2s ease;
+}
+
+.linkContainer::after {
+  content:'';
+  position: absolute;
+  cursor: pointer;
+  height: 1px;
+  width: 50%;
+  background-color: black;
+  right: 5px;
+  bottom: -7px;
+  transform: rotate(-7deg);
+  transition: all 0.2s ease;
+}
+
+.linkContainer:hover::after {
+  transition: all 0.2s ease;
+  width: 45%;
+}
+
+.linkContainer:hover::before {
+  transition: all 0.2s ease;
+  width: 95%;
+}
+
+.link {
+  padding: 15px;
+  text-decoration: none;
+  color: inherit;
+}

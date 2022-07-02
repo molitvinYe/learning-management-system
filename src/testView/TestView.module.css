@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  flex: 0 1 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 0 10px;
+  color: rgb(255, 255, 255);
+}
